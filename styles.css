@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcolor: #E5E7EB;
+    --header: #1F2937;
+    --h1: #F9FAF8;
+    --ptextcolor: #E5E7EB;
+    --button: #3882F6;
+
+}
+
+body {
+    font-family: Roboto;
+    background-color: var(--bgcolor);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 25dvh;
+    background-color: var(--header);
+}
+
