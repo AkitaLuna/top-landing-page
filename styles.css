@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -14,14 +16,97 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-color: var(--bgcolor);
+    width: 100vw;
     height: 100vh;
 }
 
 header {
-    width: 100%;
-    height: 25dvh;
+    min-height: 30dvh;
+    min-width: 700px;
     background-color: var(--header);
+    padding: 10px 50px 50px 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    color: var(--ptextcolor);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    color: var(--ptextcolor)
+}
+
+.h-description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(136, 135, 135);
+    color: var(--ptextcolor)
+}
+
+.h-content {
+    width: 350px;
+    color: var(--h1);
+    font-size: 24px;
+}
+
+.h-content p {
+    color: var(--ptextcolor);
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.button {
+    margin-top: 15px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--button);
+    color: var(--ptextcolor);
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1950a8;
+    cursor:pointer;
+}
+
+main {
+    
+}
+
+.information {
+    height: 100%;
+    width: min(100%, 900px);
+    margin: 40px auto;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+}
+
+.image1, .image2, .image3, .image4 {
+    padding: 50px;
+    border: 2px solid var(--button);
+    border-radius: 10px;
 }
 
