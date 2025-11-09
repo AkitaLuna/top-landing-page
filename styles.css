@@ -136,6 +136,7 @@ footer {
 }
 
 .quote {
+    max-width: 900px;
     padding-top: 100px;
     font-style: italic;
     font-size: 24px;
@@ -150,4 +151,24 @@ blockquote {
     text-align: right;
     font-weight: bold;
     padding-top: 3px;
+}
+
+.action {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 30px 60px;
+    border-radius: 10px;
+    color: var(--ptextcolor);
+}
+
+.action-text p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.second-button {
+  border: 1px solid white;
 }
